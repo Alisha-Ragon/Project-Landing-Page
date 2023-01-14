@@ -74,10 +74,14 @@ button {
     font-weight: light;
     color: #1f2937;
     font-size: 36px;
+    display: flex;
+    justify-content: center;
 }
 
 .boxes {
     display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .box {
@@ -87,6 +91,13 @@ button {
     align-items: center;
     height: 275px;
     width: 275px;
+}
+
+.img-box {
+    display: flex;
+    align-items: stretch;
+    height: 100px;
+    width: 100px;
     border: 1px solid #3882F6;
 }
 
@@ -98,6 +109,10 @@ button {
     color: #1f2937;
     font-size: 36px;
     font-weight: light;
+}
+
+.author {
+    text-align: end;
 }
 
 .three {
