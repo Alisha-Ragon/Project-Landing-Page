@@ -20,6 +20,7 @@ a {
 
 .links {
     margin: 3px 5px;
+    padding: 0;
 }
 
 .logo {
@@ -53,12 +54,14 @@ a {
 
 .top-image {
     display: flex;
+    flex: 1;
 }
 
 .left {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex: 1;
 }
 
 button.signup {
