@@ -1,6 +1,11 @@
+div {
+    border: 2px solid salmon;
+}
+
+
 img {
     height: auto;
-    width: 50%;
+    width: 100%;
 }
 
 a {
@@ -41,12 +46,12 @@ a {
 
 .banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 32px;
     gap: 30px;
 }
 
-.image {
+.top-image {
     display: flex;
 }
 
